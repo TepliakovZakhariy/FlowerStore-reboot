@@ -1,0 +1,10 @@
+GET http://localhost:8080/api/v1/user/email?email=email@email
+
+###
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+
+{
+  "email" : "emaaaail@emasadil",
+  "dob": "2000-01-15"
+}
